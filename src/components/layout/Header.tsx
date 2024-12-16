@@ -12,7 +12,8 @@ export function Header() {
     { path: '/', label: 'Home' },
     { path: '/about', label: 'About' },
     { path: '/contact', label: 'Contact' },
-    ...(isAuthenticated ? [{ path: '/shop', label: 'Shop' }, { path: '/dashboard', label: 'Dashboard' }] : []),
+    { path: '/shop', label: 'Shop' },
+    ...(isAuthenticated ? [{ path: '/dashboard', label: 'Dashboard' }] : []),
   ];
 
   return (
