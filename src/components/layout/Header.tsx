@@ -21,7 +21,7 @@ export function Header() {
         <div className="flex justify-between h-16">
           <div className="flex items-center">
             <Link to="/" className="text-xl font-bold text-indigo-600">
-              WebDev Co.
+              Anayat WebDev Co.
             </Link>
           </div>
 
@@ -32,8 +32,8 @@ export function Header() {
                 key={item.path}
                 to={item.path}
                 className={`px-3 py-2 rounded-md text-sm font-medium ${location.pathname === item.path
-                    ? 'text-indigo-600'
-                    : 'text-gray-700 hover:text-indigo-600'
+                  ? 'text-indigo-600'
+                  : 'text-gray-700 hover:text-indigo-600'
                   }`}
               >
                 {item.label}
@@ -76,8 +76,8 @@ export function Header() {
                   key={item.path}
                   to={item.path}
                   className={`block px-3 py-2 rounded-md text-base font-medium ${location.pathname === item.path
-                      ? 'text-indigo-600 bg-indigo-50'
-                      : 'text-gray-700 hover:text-indigo-600 hover:bg-indigo-50'
+                    ? 'text-indigo-600 bg-indigo-50'
+                    : 'text-gray-700 hover:text-indigo-600 hover:bg-indigo-50'
                     }`}
                   onClick={() => setIsMenuOpen(false)}
                 >
