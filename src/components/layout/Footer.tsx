@@ -8,12 +8,12 @@ export function Footer() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div>
-            <h3 className="text-lg font-semibold mb-4">WebDev Co.</h3>
+            <h3 className="text-lg font-semibold mb-4">Anayat WebDev Co.</h3>
             <p className="text-gray-400">
               Creating exceptional digital experiences through innovative web solutions.
             </p>
           </div>
-          
+
           <div>
             <h4 className="text-lg font-semibold mb-4">Quick Links</h4>
             <ul className="space-y-2">
@@ -22,25 +22,25 @@ export function Footer() {
               <li><Link to="/contact" className="text-gray-400 hover:text-white">Contact</Link></li>
             </ul>
           </div>
-          
+
           <div>
             <h4 className="text-lg font-semibold mb-4">Contact Info</h4>
             <ul className="space-y-2">
               <li className="flex items-center gap-2 text-gray-400">
                 <Mail className="w-4 h-4" />
-                info@webdevco.com
+                info@anayatwebdevco.com
               </li>
               <li className="flex items-center gap-2 text-gray-400">
                 <Phone className="w-4 h-4" />
-                +1 (555) 123-4567
+                +91 1234567890
               </li>
               <li className="flex items-center gap-2 text-gray-400">
                 <MapPin className="w-4 h-4" />
-                123 Web Street, Digital City
+                HSR Layout Sector 7, Bangalore, Karnataka
               </li>
             </ul>
           </div>
-          
+
           <div>
             <h4 className="text-lg font-semibold mb-4">Newsletter</h4>
             <form className="space-y-2">
@@ -58,9 +58,9 @@ export function Footer() {
             </form>
           </div>
         </div>
-        
+
         <div className="mt-8 pt-8 border-t border-gray-800 text-center text-gray-400">
-          <p>&copy; {new Date().getFullYear()} WebDev Co. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} Anayat WebDev Co. All rights reserved.</p>
         </div>
       </div>
     </footer>

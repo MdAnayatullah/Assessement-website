@@ -23,15 +23,15 @@ export function Contact() {
               <div className="space-y-4">
                 <div className="flex items-center gap-4">
                   <Mail className="w-6 h-6 text-indigo-600" />
-                  <span className="text-gray-600">info@webdevco.com</span>
+                  <span className="text-gray-600">info@anayatwebdevco.com</span>
                 </div>
                 <div className="flex items-center gap-4">
                   <Phone className="w-6 h-6 text-indigo-600" />
-                  <span className="text-gray-600">+1 (555) 123-4567</span>
+                  <span className="text-gray-600">+91 1234567890</span>
                 </div>
                 <div className="flex items-center gap-4">
                   <MapPin className="w-6 h-6 text-indigo-600" />
-                  <span className="text-gray-600">123 Web Street, Digital City</span>
+                  <span className="text-gray-600">HSR Layout Sector 7 , Bangalore, Karnataka</span>
                 </div>
               </div>
             </div>

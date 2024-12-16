@@ -6,7 +6,7 @@ export function About() {
       <div className="max-w-7xl mx-auto py-16 px-4 sm:px-6 lg:px-8">
         <div className="text-center">
           <h1 className="text-3xl font-extrabold text-gray-900 sm:text-4xl">
-            About WebDev Co.
+            About Anayat WebDev Co.
           </h1>
           <p className="mt-4 text-xl text-gray-500">
             Building the future of web development, one project at a time.
@@ -18,7 +18,7 @@ export function About() {
             <div>
               <h2 className="text-2xl font-bold text-gray-900">Our Story</h2>
               <p className="mt-4 text-lg text-gray-500">
-                Founded in 2020, WebDev Co. has been at the forefront of web development
+                Founded in 2024, WebDev Co. has been at the forefront of web development
                 innovation. Our passion for creating exceptional digital experiences drives
                 everything we do.
               </p>
