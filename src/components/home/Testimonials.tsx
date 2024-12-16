@@ -6,7 +6,7 @@ const testimonials = [
     name: 'Sarah Johnson',
     role: 'CEO at TechStart',
     image: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
-    content: 'Working with WebDev Co. transformed our online presence. Their attention to detail and innovative solutions exceeded our expectations.',
+    content: 'Working with Anayat WebDev Co. transformed our online presence. Their attention to detail and innovative solutions exceeded our expectations.',
   },
   {
     name: 'Michael Chen',
